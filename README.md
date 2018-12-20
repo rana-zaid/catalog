@@ -19,6 +19,7 @@ __1. Start	with	Software	Installation:__
 <br />6. cd catalog. 
  
 __2. Write your Flask application locally in the vagrant/catalog directory (which will automatically be synced to /vagrant/catalog within the VM).__
+
 __3. Create a setup application database: catalog/database_setup.py.__
 __4. seed it with fake date catalog/seeder.py.__
 
@@ -41,7 +42,7 @@ __4. seed it with fake date catalog/seeder.py.__
 8. set redirect URIs: (http://localhost:4000/login) and (http://localhost:4000/gconnect) then click Create.
 9. Copy the Client ID and paste it into the data-clientid in login.html.
 10. Download JSON and place it in catalog directory
-11. Run application using catalog/item_catalog.py
+11. Run application.
 
 # JSON Endpoints
 The project implements a JSON endpoint that serves the same information as displayed in the HTML endpoints for an arbitrary item in the catalog.
