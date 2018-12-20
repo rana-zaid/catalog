@@ -318,19 +318,28 @@ def disconnect():
         return redirect(url_for('allCategories'))
 
 
-# JSON
+# JSON of all caegories
 @app.route('/catalog/JSON')
 def allCategoriesJSON():
     categories = session.query(Category).all()
     return jsonify(Category=[i.serialize for i in categories])
 
 
-# JSON
+# JSON of all items of specified category
 @app.route('/catalog/<path:category_name>/items/JSON')
 def categoryItemsJSON(category_name):
     category = session.query(Category).filter_by(name=category_name).one()
     items = session.query(Item).filter_by(category=category).all()
     return jsonify(Item=[i.serialize for i in items])
+
+
+# JSON of specified category item
+@app.route('/catalog/<path:category_name>/<path:item_name>/JSON')
+def ItemDetailsJSON(category_name, item_name):
+    categories = session.query(Category).all()
+    category = session.query(Category).filter_by(name=category_name).one()
+    item = session.query(Item).filter_by(name=item_name).one()
+    return jsonify(Item=[item.serialize])
 
 
 # Home page
