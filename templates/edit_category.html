@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+{% include "header.html" %}
+
+<body>
+
+	<h3 class="padding padding-top-20"> Edit Category </h3>
+
+		<form action="{{ url_for('editCategory', category_name = category.name)}}" method = 'post'>
+    		<div class="AddEditpane">
+				<p>Name:</p>
+				<input type ='text' size='30' name='name' placeholder = '{{category.name }}'>
+			</div>
+
+				<div class="padding-left-10 padding-top-20">
+					<input type='submit' value='Save'>
+					<a href="{{url_for('allCategories')}}">
+            		<button type="button">Cancel</button></a>
+            	</div>
+		</form>
+		
+</body>
+
+</html>

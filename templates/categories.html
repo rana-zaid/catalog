@@ -1,0 +1,6 @@
+
+	<h4 class="padding-bottom-10">Categories</h4>
+		{% for i in categories %}
+			<a href = "{{url_for('categoryItems', category_name = i.name)}}"> 
+				<h5 class="categories">{{i.name}}</h5></a>
+		{% endfor %}

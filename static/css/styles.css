@@ -1,0 +1,265 @@
+html {
+  height: 100%;
+  background: url('../images/catalog-bg.jpg') no-repeat;
+  background-size: 100%;
+}
+body { 
+	font-family: serif;
+  font-size: 15px
+	background-color: #34495E;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 45px;
+  line-height: 45px;
+}
+h2 {
+  font-size: 35px;
+  line-height: 35px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 25px;
+  line-height: 25px;
+  padding-top: 10px
+}
+h5 {
+  font-size: 20px;
+  line-height: 22px;
+}
+h6 {
+  font-size: 15px;
+  line-height: 15px;
+}
+ h1, 
+ h2, 
+ h3, 
+ h4,
+ h5,
+ h6 {
+	 font-family: sans-serif;
+	 margin: 0;
+	 padding: 0;
+	 color: #273746;
+}
+p {
+  color: #273746;
+  padding: 5px;
+  margin: 0px
+}
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+li {
+  margin-left: 30
+}
+.title{
+  padding: 0px;
+  text-align: center;
+  position: relative;
+  color: #FBFCFC;
+}
+.signIn {
+  text-align: center;
+  color: #212F3C;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+.pane {
+  position:left;
+  left: 25%;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 30px;
+  margin: 5px;
+  border-color: #999999;
+  background-color: #F8F9F6;
+  overflow-y: scroll;
+}
+.signInPane {
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 5px;
+  margin-top: 30px;
+  margin-left: 390px;
+  border-color: #999999;
+  background-color: #F8F9F9;
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  box-shadow: 2px 3px #888888;
+}
+.Headerpane {
+  position:relative;
+  border: 1px solid #5D6D7E;  
+  border-color: #999999;
+  background-color: #34495E;
+  padding-bottom: 30px;
+}
+.nav {
+  border-left:1px solid #D0D3D4;
+  max-height: all;
+  padding-right: 10px;
+  margin-left: 15px;
+}
+.CategoryItemsNav {
+  border-right:1px solid #D0D3D4;
+  max-height: all;
+  padding-right: 10px;
+}
+.AddEditpane {
+  width: 300px;
+  position:left;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 30px;
+  padding-bottom: 50px;
+  margin: 5px;
+  border-color: #999999;
+  background-color: #F4F6F6;
+}
+.itempane {
+  width: 400px;
+  position:left;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 20px;
+  padding-bottom: auto;
+  margin: 5px;
+  margin-top: 20px;
+  border-color: #999999;
+  background-color: #F4F6F6;
+}
+.categories{
+  padding: 5px;
+  color: #5D6D7E;
+  width: auto;
+}
+.latestItemCategory {
+  color: #979A9A;
+  font-style: oblique;
+  font-size: 15px;
+}
+.items{
+  margin-left: 20px;
+  padding: 5px;
+  color: #5D6D7E;
+}
+.xItems {
+  font-size: 17px;
+  color: #2352D9;
+}
+.LatestItems{
+  margin-left: 20px;
+  padding: 5px;
+  color: #5D6D7E;
+}
+.header {
+  left:50%;
+  text-align: center;
+}
+.inline {
+  display: inline-block;
+}
+.name {
+  width:50%;
+  display: inline-block;
+  float: left;
+}
+.padding {
+  padding: 10px
+}
+.padding-top-20 {
+  padding-top: 20px;
+}
+.padding-top-50 {
+  padding-top: 50px;
+}
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.padding-left-10 {
+  padding-left: 10px;
+}
+.padding-left-20 {
+  padding-left: 20px;
+}
+.padding-left-40 {
+  padding-left: 40px;
+}
+.flash {
+  padding-top: : 5px;
+  color: #A93226;
+  font-weight: bold;
+}
+.links {
+  color: grey;
+  text-decoration: underline;
+}
+.img {
+  border: 1px solid #BDC3C7;
+  padding: 3px;
+  width: 50%;
+  height: auto;
+}
+.font-size-20 {
+  font-size: 20px
+}
+.login-button {
+  text-align-last: center;
+  padding-top: 30px;
+}
+.loginLogoutLink {
+  margin-left: 94.5%;
+  color: #F8F9F9;
+}
+.homeLink {
+  color: #F8F9F9;
+}
+.relative {
+  position: relative; 
+}
+.AddCategoryItem {
+  margin-left: 10px;
+  text-decoration: underline solid #273746;
+}
+.row {
+  max-width: 100%;
+  position: relative;
+}
+.column-left {
+  float: left;
+  width: auto;
+}
+.column-right {
+  float: right;
+  width: auto;
+  margin-right: 60px;
+}
+.column-center {
+  display: inline-block;
+  display: table;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.column-center-items {
+  display: inline-block;
+  width: 50%;
+}

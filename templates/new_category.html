@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+{% include "header.html" %}
+
+<body>
+
+	<h4 class="padding padding-top-20">Add New Category</h4>
+
+	<form action="{{ url_for('newCategory')}}" method = 'post'>
+
+    	<div class="AddEditpane">
+    	<p>Name:</p>
+            <input type ='text' size='30' name='name'>
+		</div>
+
+		<div class="padding-left-10 padding-top-20">
+			<input type='submit' value='Save'>
+			<button><a href = '{{url_for('allCategories')}}'> Cancel </a></button>
+
+		</div>
+
+	</form>
+
+</body>
+
+</html>
