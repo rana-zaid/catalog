@@ -1,8 +1,8 @@
-# Item Catalog Web Application
+# Item Catalog
 This project is required for Udacity's Full Stack Web Developer Nanodegree program.
 
 # Introduction
-An application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own categories and items.
+A web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own categories and items.
 
 # Prerequisites
 __1. Start	with	Software	Installation:__
