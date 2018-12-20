@@ -15,17 +15,17 @@ __1. Start	with	Software	Installation:__
 <br />2. vagrant up.
 <br />3. vagrant ssh. 
 <br />4. cd /vagrant.
-<br />5. mkdir catalog.
-<br />6. cd catalog. 
+<br />5. mkdir item-catalog.
+<br />6. cd item-catalog. 
  
-__2. Write your Flask application locally in the vagrant/catalog directory (which will automatically be synced to /vagrant/catalog     within the VM).__
+__2. Write your Flask application locally in the vagrant/item-catalog directory (which will automatically be synced to /vagrant/item-catalog within the VM).__
 
-__3. Create a setup application database: catalog/database_setup.py.__
-</br>__4. seed it with fake date catalog/seeder.py.__
+__3. Create a setup application database: item-catalog/database_setup.py.__
+</br>__4. seed it with fake date item-catalog/seeder.py.__
 
 # Run The Project
 1. Make sure that you have vagrant up and connected to it.
-2. cd into the correct project directory: cd /vagrant/catalog.
+2. cd into the correct project directory: cd /vagrant/item-catalog.
 3. Run python database_setup.py.
 4. Run seeder.py to seed it.
 5. Run item_catalog.py.
@@ -41,7 +41,7 @@ __3. Create a setup application database: catalog/database_setup.py.__
 7. set the authorized JavaScript origins'http://localhost:4000'
 8. set redirect URIs: (http://localhost:4000/login) and (http://localhost:4000/gconnect) then click Create.
 9. Copy the Client ID and paste it into the data-clientid in login.html.
-10. Download JSON and place it in catalog directory
+10. Download JSON and place it in item-catalog directory
 11. Run application.
 
 # JSON Endpoints
