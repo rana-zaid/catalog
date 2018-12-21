@@ -1,8 +1,16 @@
 #! /usr/bin/env python3
 
 # Imports
-from flask import Flask, render_template, request,\
-        redirect, url_for, flash, jsonify, make_response
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    url_for,
+    flash,
+    jsonify,
+    make_response
+)
 from flask import session as login_session
 from sqlalchemy import create_engine, desc
 from sqlalchemy.orm import sessionmaker

@@ -11,17 +11,18 @@
 
       <div class="AddEditpane">
       <p>Name:</p>
-        <input type ='text' size='30' name='name'>
+        <input type ='text' size='30' name='name' required>
 
       <p>Author:</p>
-        <input type ='text' size='30' name='author'></br>
+        <input type ='text' size='30' name='author' required></br>
 
       <p>Picture URL:</p>
         <input type ="url" id="picture" maxlength="250" name="picture"
-                placeholder="http://www.example.com">
+                placeholder="http://www.example.com" required>
 
      <p>Category:</p>
-        <select name="category">
+        <select name="category" required>
+          <option disabled selected value> -- select -- </option>
           {% for i in categories %}
             <option value="{{i.name}}">{{i.name}}</option>
           {% endfor %}

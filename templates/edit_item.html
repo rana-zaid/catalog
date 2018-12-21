@@ -11,16 +11,16 @@
     <form action="{{ url_for('editItem', category_name = item.category.name, item_name = item.name)}}" method = 'post'>
       <div class="AddEditpane">
         <p>Name:</p>
-		      <input type ='text' size='30' name='name' placeholder = '{{item.name }}'>
+		      <input type ='text' size='30' name='name' placeholder = '{{item.name }}' required>
         <p>Author:</p>
-		      <input type ='text' size='30' name='author' placeholder = '{{item.author }}'>
+		      <input type ='text' size='30' name='author' placeholder = '{{item.author }}' required>
         <p>Picture:</p>
             <img src="{{item.picture}}" alt="{{item.picture}}">
         <p>Picture URL:</p> 
           <input type ="url" id="picture" maxlength="250" name="picture" 
-                        placeholder="{{item.picture}}" value="{{item.picture}}">
+                        placeholder="{{item.picture}}" value="{{item.picture}}" required>
         <p>Category:</p>      
-	         <select name="category">
+	         <select name="category" required>
               {% for i in categories %}
                 <option value="{{i.name}}" {% if i == item.category %} selected {% endif %}>{{i.name}}</option>
               {% endfor %}
