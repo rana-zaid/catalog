@@ -46,6 +46,6 @@ __3. Create a setup application database:__ `item-catalog/database_setup.py`.
 
 ## JSON Endpoints
 The project implements a JSON endpoint that serves the same information as displayed in the HTML endpoints for an arbitrary item in the catalog.
-1. `/catalog/JSON` - Returns JSON of all categories in catalog
-2. `/catalog/<path:category_name>/items/JSON` - Returns JSON of all items of specified category
-3. `/catalog/<path:category_name>/<path:item_name>/JSON` - Returns JSON of specified category item
+1. `/catalog/JSON` - Returns JSON of all categories in catalog.
+2. `/catalog/<path:category_name>/items/JSON` - Returns JSON of all items of specified category.
+3. `/catalog/<path:category_name>/<path:item_name>/JSON` - Returns JSON of specified category item.
