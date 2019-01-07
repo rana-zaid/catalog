@@ -25,7 +25,7 @@ __3. Create a setup application database: item-catalog/database_setup.py.__
 
 ## Run The Project
 1. Make sure that you have vagrant up and connected to it.
-2. cd into the correct project directory: cd /vagrant/item-catalog.
+2. cd into the correct project directory: `cd /vagrant/item-catalog`.
 3. Run python database_setup.py.
 4. Run seeder.py to seed it.
 5. Run item_catalog.py.
@@ -38,7 +38,7 @@ __3. Create a setup application database: item-catalog/database_setup.py.__
 4. configure the consent screen.
 5. Select Web application.
 6. write name 'Item-Catalog'
-7. set the authorized JavaScript origins'http://localhost:4000'
+7. set the authorized JavaScript origins: http://localhost:4000
 8. set redirect URIs: (http://localhost:4000/login) and (http://localhost:4000/gconnect) then click Create.
 9. Copy the Client ID and paste it into the data-clientid in login.html.
 10. Download JSON and place it in item-catalog directory
@@ -46,6 +46,6 @@ __3. Create a setup application database: item-catalog/database_setup.py.__
 
 ## JSON Endpoints
 The project implements a JSON endpoint that serves the same information as displayed in the HTML endpoints for an arbitrary item in the catalog.
-1. '/catalog/JSON' - Returns JSON of all categories in catalog
-2. '/catalog/<path:category_name>/items/JSON' - Returns JSON of all items of specified category
-3. '/catalog/<path:category_name>/<path:item_name>/JSON' - Returns JSON of specified category item
+1. `/catalog/JSON` - Returns JSON of all categories in catalog
+2. `/catalog/<path:category_name>/items/JSON` - Returns JSON of all items of specified category
+3. `/catalog/<path:category_name>/<path:item_name>/JSON` - Returns JSON of specified category item
