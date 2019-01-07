@@ -29,7 +29,7 @@ __3. Create a setup application database:__ `item-catalog/database_setup.py`.
 3. Run python database_setup.py.
 4. Run seeder.py to seed it.
 5. Run item_catalog.py.
-6. Access and test your application by visiting http://localhost:4000 locally
+6. Access and test your application by visiting http://localhost:4000 locally.
 
 ## Add Google Sign in
 1. go to the link https://console.developers.google.com/apis/dashboard?pli=1
@@ -41,7 +41,7 @@ __3. Create a setup application database:__ `item-catalog/database_setup.py`.
 7. set the authorized JavaScript origins: http://localhost:4000
 8. set redirect URIs: (http://localhost:4000/login) and (http://localhost:4000/gconnect) then click Create.
 9. Copy the Client ID and paste it into the data-clientid in login.html.
-10. Download JSON and place it in item-catalog directory
+10. Download JSON and place it in item-catalog directory.
 11. Run application.
 
 ## JSON Endpoints
