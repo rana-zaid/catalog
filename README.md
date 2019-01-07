@@ -20,8 +20,8 @@ __1. Start	with	Software	Installation:__
  
 __2. Write your Flask application locally in the vagrant/item-catalog directory (which will automatically be synced to /vagrant/item-catalog within the VM).__
 
-__3. Create a setup application database: item-catalog/database_setup.py.__
-</br>__4. seed it with fake date item-catalog/seeder.py.__
+__3. Create a setup application database: `item-catalog/database_setup.py.`__
+</br>__4. seed it with fake date `item-catalog/seeder.py`.__
 
 ## Run The Project
 1. Make sure that you have vagrant up and connected to it.
