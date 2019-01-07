@@ -1,10 +1,10 @@
 # Item Catalog
 This project is required for Udacity's Full Stack Web Developer Nanodegree program.
 
-# Introduction
+## Introduction
 A web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own categories and items.
 
-# Prerequisites
+## Prerequisites
 __1. Start	with	Software	Installation:__
 * Vagrant:	https://www.vagrantup.com/downloads.html	
 * Virtual	Machine:	https://www.virtualbox.org/wiki/Downloads	
@@ -23,7 +23,7 @@ __2. Write your Flask application locally in the vagrant/item-catalog directory 
 __3. Create a setup application database: item-catalog/database_setup.py.__
 </br>__4. seed it with fake date item-catalog/seeder.py.__
 
-# Run The Project
+## Run The Project
 1. Make sure that you have vagrant up and connected to it.
 2. cd into the correct project directory: cd /vagrant/item-catalog.
 3. Run python database_setup.py.
@@ -31,7 +31,7 @@ __3. Create a setup application database: item-catalog/database_setup.py.__
 5. Run item_catalog.py.
 6. Access and test your application by visiting http://localhost:4000 locally
 
-# Add Google Sign in
+## Add Google Sign in
 1. go to the link https://console.developers.google.com/apis/dashboard?pli=1
 2. Choose Credentials.
 3. Create an OAuth Client ID.
@@ -44,7 +44,7 @@ __3. Create a setup application database: item-catalog/database_setup.py.__
 10. Download JSON and place it in item-catalog directory
 11. Run application.
 
-# JSON Endpoints
+## JSON Endpoints
 The project implements a JSON endpoint that serves the same information as displayed in the HTML endpoints for an arbitrary item in the catalog.
 1. '/catalog/JSON' - Returns JSON of all categories in catalog
 2. '/catalog/<path:category_name>/items/JSON' - Returns JSON of all items of specified category
