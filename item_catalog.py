@@ -345,9 +345,8 @@ def ItemDetailsJSON(category_name, item_name):
 def allCategories():
     categories = session.query(Category).all()
     items = session.query(Item).all()
-    for i in items:
-        latestItems = session.query(Item).order_by(Item.date.desc())\
-            .limit(6).all()
+    latestItems = session.query(Item).order_by(Item.date.desc())\
+        .limit(6).all()
     if 'username' not in login_session:
         return render_template('public_home_page.html',
                                categories=categories,
